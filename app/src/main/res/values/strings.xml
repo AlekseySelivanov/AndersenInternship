@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndersenHW</string>
+    <string name="TextView">Welcome</string>
+    <string name="message_error">No connection</string>
+    <string name="logoOfCategory">logoOfCategory</string>
+    <string name="Backgrounds">Backgrounds</string>
+    <string name="DetailsTextView">Details...</string>
+    <string name="flags">Flags</string>
+    <string name="change_color">Change colour</string>
+    <string name="date">Date</string>
+    <string name="errorMessage">It looks like something went wrong.\nPlease try again later.</string>
+</resources>
