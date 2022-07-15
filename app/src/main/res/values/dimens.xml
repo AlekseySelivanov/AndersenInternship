@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="flagHeight">150dp</dimen>
+    <dimen name="flagWidth">300dp</dimen>
+    <dimen name="flagHalf">75dp</dimen>
+    <dimen name="flagThird">50dp</dimen>
+    <dimen name="finlandLineSize">40dp</dimen>
+    <dimen name="finlandBottomMargin">80dp</dimen>
+    <dimen name="ornament">265dp</dimen>
+    <dimen name="unionRightMargin">150dp</dimen>
+    <dimen name="partFlagHeight">50dp</dimen>
+
+</resources>

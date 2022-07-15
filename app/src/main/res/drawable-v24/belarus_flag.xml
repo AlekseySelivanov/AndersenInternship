@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/belarusSecondLineColor"/>
+        </shape>
+    </item>
+    <item android:bottom="@dimen/flagThird">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/belarusFirstLineColor"/>
+        </shape>
+    </item>
+    <item android:right="@dimen/ornament">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/belarus_ornament" android:right="@dimen/ornament"/>
+</layer-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/AustraliaBlueColor"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/union" android:bottom="@dimen/flagHalf" android:right="@dimen/unionRightMargin"/>
+    <item android:drawable="@drawable/star"  android:top="75dp" android:left="240dp" android:width="12.5dp" android:height="12.5dp" />
+    <item android:drawable="@drawable/stars"  android:top="93.75dp" android:left="56.25dp" android:width="37.5dp" android:height="37.5dp" />
+    <item android:drawable="@drawable/stars"  android:top="62.5dp" android:left="187.5dp" android:width="25dp" android:height="25dp" />
+    <item android:drawable="@drawable/stars"  android:top="112.5dp" android:left="214.3dp" android:width="25dp" android:height="25dp" />
+    <item android:drawable="@drawable/stars"  android:top="12.5dp" android:left="214.3dp" android:width="25dp" android:height="25dp" />
+    <item android:drawable="@drawable/stars"  android:top="43.75dp" android:left="250dp" android:width="25dp" android:height="25dp" />
+</layer-list>
