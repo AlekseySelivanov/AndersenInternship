@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/creditcard_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_view"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardPreventCornerOverlap="true"
+    app:layout_constraintWidth_min="320dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Background-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/gradient"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/visa_gradient" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.1"
+                android:scaleType="fitXY"
+                android:src="@drawable/cardback" />
+
+            <!--logo-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/creditcard_logo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:adjustViewBounds="true"
+                android:alpha="0.7"
+                android:padding="10dp"
+                android:scaleType="fitEnd"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ruble" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/card_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_header"
+                android:fontFamily="@font/saira_regular"
+                android:text="@string/card_header"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toEndOf="@+id/creditcard_logo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/card_padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!--Amount-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/card_number_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/credit_card_top"
+                android:fontFamily="@font/saira_regular"
+                android:text="@string/card_number_hint_my"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/creditcard_card_number_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/saira_medium"
+                android:maxLength="19"
+                android:maxLines="1"
+                android:text="@string/card_number_def"
+                android:textColor="@color/white"
+                android:textSize="@dimen/number_card_t_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card_number_hint" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/percents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/saira_medium"
+                android:maxLength="3"
+                android:maxLines="1"
+                android:paddingStart="5dp"
+                android:text="@string/card_number_rub"
+                android:textColor="@color/white"
+                android:textSize="@dimen/number_card_t_size"
+                app:layout_constraintStart_toEndOf="@+id/creditcard_card_number_label"
+                app:layout_constraintTop_toBottomOf="@+id/card_number_hint" />
+
+            <!--Description-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/creditcard_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/saira_medium"
+                android:text="@string/month_def"
+                android:textColor="@color/white"
+                android:textSize="@dimen/number_card_t_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/creditcard_card_number_label" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/creditcard_expiration_y_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_view"
+                android:fontFamily="@font/saira_medium"
+                android:text="@string/year_def"
+                android:textColor="@color/white"
+                android:textSize="@dimen/number_card_t_size"
+                app:layout_constraintStart_toEndOf="@id/creditcard_desc"
+                app:layout_constraintTop_toBottomOf="@+id/creditcard_card_number_label" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/perSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/saira_medium"
+                android:text="@string/year_perc"
+                android:textColor="@color/white"
+                android:textSize="@dimen/number_card_t_size"
+                app:layout_constraintStart_toEndOf="@id/creditcard_expiration_y_label"
+                app:layout_constraintTop_toBottomOf="@+id/creditcard_card_number_label" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

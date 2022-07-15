@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCreditCard">
+        <attr name="cardType">
+            <enum name="RUBLE" value="0" />
+            <enum name="DOLLAR" value="1" />
+            <enum name="EURO" value="2" />
+        </attr>
+        <attr name="scrBackground" format="reference"/>
+        <attr name="percent" format="integer"/>
+    </declare-styleable>
+</resources>

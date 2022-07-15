@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndersenHW</string>
+    <string name="create_account">Регистрация</string>
+    <string name="full_name_hint">Полное имя</string>
+    <string name="email_address_hint">Email-адрес</string>
+    <string name="phone_number_hint">Номер телефона</string>
+    <string name="password_hint">Пароль</string>
+    <string name="confirm_password_hint">Подтвердить пароль</string>
+    <string name="terns_and_conditions">Соглашаюсь с <b>Политикой Конфиденциальности</b></string>
+    <string name="already_have_an_account">Уже зарегестрированы?</string>
+    <string name="login">Войти</string>
+    <string name="login_account">Войти в аккаунт</string>
+    <string name="account_question">Еще нет аккаунта?</string>
+    <string name="sign_up">Регистрация</string>
+
+    <string name="logged_in_title">Главный экран</string>
+    <string name="logged_in_logout">Log out</string>
+    <string name="logged_in_logout_icon_description">Log out icon</string>
+    <string name="logged_in_welcome">Добро пожаловать, %1$s!</string>
+    <string name="login_register_success">Пользователь зарегистрирован</string>
+    <string name="login_in_success">Вход выполнен</string>
+
+    <string name="card_number_def">5 000,55</string>
+    <string name="card_number_rub">RUB</string>
+    <string name="card_number_hint_my">Остаток основного долга</string>
+    <string name="expiration_hint">Expiration</string>
+    <string name="month_def">Процентня ставка <br>-</br></string>
+    <string name="year_def">5</string>
+    <string name="year_perc">%</string>
+    <string name="card_header">«Проще простого»</string>
+    <string name="facts_load_error">Could not load facts</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="margin_view">16dp</dimen>
+    <dimen name="credit_card_top">60dp</dimen>
+    <dimen name="card_header">20dp</dimen>
+    <dimen name="number_card_t_size">22sp</dimen>
+    <dimen name="cardPadding">4dp</dimen>
+    <dimen name="cardStartEndPadding">16dp</dimen>
+    <dimen name="cardTopBottom">8dp</dimen>
+    <dimen name="cardMarginTop">8dp</dimen>
+</resources>
