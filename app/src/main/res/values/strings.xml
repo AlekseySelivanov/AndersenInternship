@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndersenHW</string>
+    <string name="TextView">Welcome</string>
+    <string name="logoOfCategory">logoOfCategory</string>
+    <string name="Backgrounds">Backgrounds</string>
+    <string name="DetailsTextView">Details...</string>
+    <string name="Back">Back</string>
+    <string name="reference">Picture link</string>
+    <string name="image">image</string>
+    <string name="picasso">Picasso</string>
+    <string name="glide">Glide</string>
+    <string name="gallery">Gallery</string>
+    <string name="flags">Flags</string>
+    <string name="access_denied">Чтобы выбрать файл, нужен доступ к внутреннему хранилищу</string>
+    <string name="link_to_picture">Please, enter link to the picture</string>
+    <string name="not_link">It\'s not a link</string>
+</resources>
