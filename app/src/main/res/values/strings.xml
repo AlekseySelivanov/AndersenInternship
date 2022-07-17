@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndersenHW</string>
+    <string name="TextView">Welcome</string>
+    <string name="logoOfCategory">logoOfCategory</string>
+    <string name="Backgrounds">Backgrounds</string>
+    <string name="DetailsTextView">Details...</string>
+    <string name="Back">Back</string>
 </resources>
