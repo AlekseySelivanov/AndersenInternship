@@ -11,16 +11,13 @@
         android:label="MainFragment"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_photosFragment"
-            app:destination="@id/detailsFragment" />
+            android:id="@+id/action_mainFragment_to_flagsFragment"
+            app:destination="@id/flagsFragment"
+            />
     </fragment>
     <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.example.andersenhw.ui.DetailsFragment"
-        android:label="DetailsFragment"
-        tools:layout="@layout/fragment_details" >
-        <action
-            android:id="@+id/action_detailsFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
-    </fragment>
+        android:id="@+id/flagsFragment"
+        android:name="com.example.andersenhw.ui.FlagsFragment"
+        android:label="FlagsFragment"
+        tools:layout="@layout/fragment_flags"/>
 </navigation>
